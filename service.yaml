@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: java-cicd-app-svc
+spec:
+  type: NodePort
+  selector:
+    app: java-cicd-app
+  ports:
+    - port: 80
+      targetPort: 8080
