@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: java-cicd-app
-          image: 423671573887.dkr.ecr.ap-south-1.amazonaws.com/java-cicd-app:1
+          image: 423671573887.dkr.ecr.ap-south-1.amazonaws.com/java-cicd-app:6
           ports:
             - containerPort: 8080
