@@ -1,8 +1,8 @@
-replicaCount: 2
+replicaCount: 1
 
 image:
   repository: 423671573887.dkr.ecr.ap-south-1.amazonaws.com/java-cicd-app
-  tag: "11"
+  tag: "1"
 
 service:
   type: NodePort
