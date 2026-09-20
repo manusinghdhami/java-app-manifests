@@ -1,11 +1,16 @@
 replicaCount: 3
 
 image:
-  repository: 423671573887.dkr.ecr.ap-south-1.amazonaws.com/java-cicd-app
+  repository: <account-id>.dkr.ecr.ap-south-1.amazonaws.com/java-cicd-app
   tag: "1"
 
 service:
-  type: NodePort
   port: 80
   targetPort: 8080
-  nodePort: 30081
+
+ingress:
+  enabled: true
+  host: prod.PENDING.nip.io
+
+nodeSelector:
+  environment: prod
