@@ -10,7 +10,7 @@ service:
 
 ingress:
   enabled: true
-  host: staging.PENDING.nip.io
+  host: staging.3.108.201.53.nip.io
 
 nodeSelector:
   environment: staging

@@ -10,7 +10,7 @@ service:
 
 ingress:
   enabled: true
-  host: prod.PENDING.nip.io
+  host: prod.3.108.201.53.nip.io
 
 nodeSelector:
   environment: prod
