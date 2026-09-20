@@ -1,8 +1,8 @@
 replicaCount: 3
 
 image:
-  repository: <account-id>.dkr.ecr.ap-south-1.amazonaws.com/java-cicd-app
-  tag: "1"
+  repository: 423671573887.dkr.ecr.ap-south-1.amazonaws.com/java-cicd-app
+  tag: "4"
 
 service:
   port: 80
